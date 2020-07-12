@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}Quiz{% endblock %}
+
+{% block content %}
+
+<p>You will need to get all the answers right to continue to the next stage. If you don't get four out of four right, you will be sendt back to the previous page, and you must read the game instructions one more time. </p>
+
+{% formfields %}
+
+{% next_button %}
+
+{% endblock %}

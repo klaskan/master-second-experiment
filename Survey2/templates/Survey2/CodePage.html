@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}MTurk completion code{% endblock %}
+
+{% block content %}
+
+
+<h6>Completion code: <b>{{player.ver_code}}</b> </h6>
+<br>
+{% formfields %}
+
+{% next_button %}
+
+{% endblock %}

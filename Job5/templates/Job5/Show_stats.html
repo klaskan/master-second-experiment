@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}Job 5: Statistics{% endblock %}
+
+{% block content %}
+
+<ul>
+    <li><p>You earned {{player.this_round_point }} before taxes</p></li>
+    <li><p>So far in the game you have earned <b>{{participant.payoff }}</b></p></li>
+</ul>
+
+
+{% formfields %}
+
+{% next_button %}
+
+<p style="font-size:12px;"> Your taxes are calculated as follows: declared income * 0.60 + undeclared income </p>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}Job 2: Declare{% endblock %}
+
+{% block content %}
+
+<p>Score this round: {{ player.this_round_point }}</p>
+<p>The possibility of getting audited is <b>5%</b>.</p>
+<p>How mutch of the rounds point do you want to declare?</p>
+
+
+{% formfields %}
+
+{% next_button %}
+
+{% endblock %}

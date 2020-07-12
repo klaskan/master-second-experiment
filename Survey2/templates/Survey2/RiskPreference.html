@@ -1,0 +1,14 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}Last Survey!{% endblock %}
+
+{% block content %}
+
+<p>You are here faced with two hypothetical lotteries that you can participate in, A or B. So for instance: <em>[(A): 2/10 of $2.00, 8/10 of $1.60 | (B): 2/10 of $3.85,  8/10 of $0.10]</em> means that you are suppose to choose between lottery A <em>(where you have a 2/10(20%) posibility to win $2 or a 8/10 (80%) posibility of winning $1.60)</em> or B <em>(where you have a 2/10(20%) posibility to win $3.85 or a 8/10 (80%) posibility of winning $0.10)</em></p>
+
+{% formfields %}
+
+{% next_button %}
+
+{% endblock %}

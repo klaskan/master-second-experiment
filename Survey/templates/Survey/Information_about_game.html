@@ -1,0 +1,23 @@
+{% extends "global/Page.html" %}
+{% load otree %}
+
+{% block title %}Information about the game{% endblock %}
+
+{% block content %}
+
+<p>Read the instructions carefully; there will be a short quiz on the next page to test if you understand the rules of the game. In the following sections, you are going to do some jobs. For each job you complete, you will get a payment in the form of points. Each job has a timer, and the amounts of points you accumulate on each job depends on how well you perform on the job. These points can be converted into real currency at the end of the game. The game will take about 15-20 min to complete. After each job you complete, you will be asked to declare how many points you earned that round to a tax authority. The tax rate is a flat rate of 40%, meaning that the tax rate is 40% regardless of how many points you earn on the job.</p> 
+
+<p>If you don't declare the full amount you earned that round, there is a possibility to be audited, meaning there is a possibility that the tax authority checked if you declared the total amount you made. The possibility of getting audited will be stated before you declare the amount you earned.</p>
+
+<p>If you get caught evading tax, you will need to pay back the amount you did not declare, and you are forced to pay a fine equivalent of 100% of what you did not declare.</p> 
+
+<p>You will get paid in points; the exchange rate is 100 points = $1. And at the end of the game, there will be two short surveys.</p> 
+
+
+
+
+{% formfields %}
+
+{% next_button %}
+
+{% endblock %}
