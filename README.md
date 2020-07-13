@@ -1,5 +1,5 @@
 # master-second-experiment
-This is my second experiment made with Otree. You can try the demo here: eksperiment-uib.herokuapp.com/demo/
+This is my second experiment made with Otree. You can try the demo here: https://eksperiment-uib.herokuapp.com/demo/
 The participant has to do the following jobs:
 
 ### Job 1
